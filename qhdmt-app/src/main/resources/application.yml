@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: qhdmt-app
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8888/
+server:
+  port: 8881
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
