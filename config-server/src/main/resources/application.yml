@@ -13,7 +13,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/chykong/springcloud_config
+          uri: https://github.com/martian-chao/springcloud_config
           searchPaths:
           username:
           password:
